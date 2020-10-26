@@ -1,4 +1,4 @@
-# webpack5-final-loader-null
+# webpack5-persistent-cache
 
 ### Tested on:
 * `node: v12.18.3`
