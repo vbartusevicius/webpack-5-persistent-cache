@@ -1,6 +1,7 @@
 const fullPath = "\/home\/valentas\/Projects\/webpack-5-persistent-cache";
 
 module.exports = require(`${fullPath}\/app\/config\/webpack.config.js`)({
+    "config": __filename,
     "entry": {
         "style-97d6614bde722784c18a56c668d3e0090ddd8302": `${fullPath}\/src\/index.js`,
     },

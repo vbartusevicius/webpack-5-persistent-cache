@@ -445,7 +445,7 @@ module.exports = function makeWebpackConfig(options) {
             cacheDirectory: `${cacheDirectory}/webpack`,
             buildDependencies: {
                 config: [
-                    __filename,
+                    options.config,
                 ],
             },
         };
